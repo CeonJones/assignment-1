@@ -96,7 +96,10 @@ void modifyInteger(int data[], int count) {
         cout << "Unexpected error:" << e.what() << endl;
     }
 }
-//Adds an integer to an array.
+void addInteger(int data[], int &count)
+{
+}
+// Adds an integer to an array.
 void addInteger(int data[], int& count, int& capacity){
     try{
         if (count >= capacity) {
